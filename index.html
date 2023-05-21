@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMA</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#">FAMA</a>
+        </div>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">services</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <label for="login">login</label>
+
+        </nav>
+    </header>
+    <section id="home">
+        <div class="box">
+            <input type="radio" class="c-form" name="form" id="login">
+            <input type="radio" class="c-form" name="form" id="register">
+            <input type="radio" class="c-form" name="form" id="close">
+
+            <div class="form-box  form-login">
+                <label for="close" class="close-icon"><i class="fa fa-close"></i></label>
+                <div class="heading-box">
+                    <h2>login</h2>
+                </div>
+                <form action="" method="post">
+                    <div class="input-box">
+                        <label for="email"><i class="fa fa-at"></i></label>
+                        <input type="email" name="" id="email">
+                    </div>
+                    <div class="input-box">
+                        <label for="password"><i class="fa fa-shield-alt"></i></label>
+                        <input type="password" name="" id="password">
+                    </div>
+                    <div class="remember-forget">
+                        <label for="remember">
+                            <input type="checkbox" name="" id="remember">
+                            <span>remember me</span>
+                        </label>
+                        <a href="#">forget password?</a>
+                    </div>
+                    <button class="form-btn">login</button>
+                    <div class="login-register">
+                        <p>
+                            <span>if you dont have an account?</span>
+                            <label for="register" class="register-link">register</label>
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="form-box  form-register">
+                <label for="close" class="close-icon"><i class="fa fa-close"></i></label>
+                <div class="heading-box">
+                    <h2>register</h2>
+                </div>
+                <form action="" method="post">
+                    <div class="input-box">
+                        <label for="name"><i class="fa fa-user"></i></label>
+                        <input type="text" name="" id="name" placeholder="full name">
+                    </div>
+                    <div class="input-box">
+                        <label for="email"><i class="fa fa-at"></i></label>
+                        <input type="email" name="" id="email">
+                    </div>
+                    <div class="input-box">
+                        <label for="password"><i class="fa fa-shield-alt"></i></label>
+                        <input type="password" name="" id="password">
+                    </div>
+                    <div class="remember-forget">
+                        <label for="remember">
+                            <input type="checkbox" name="" id="remember">
+                            <span>remember me</span>
+                        </label>
+                        <a href="#">forget password?</a>
+                    </div>
+                    <button class="form-btn">login</button>
+                    <div class="login-register">
+                        <p>
+                            <span>if you have an account?</span>
+                            <label for="login" class="register-link">login</label>
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
